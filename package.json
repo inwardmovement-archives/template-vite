@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "tw:watch": "npx tailwindcss -i ./src/assets/main.css -o ./src/assets/compiled.css --watch",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "update": "npx npm-check-updates -ui"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "dependencies": {}
+}

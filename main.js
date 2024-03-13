@@ -11,6 +11,6 @@ tailwind.config = {
   important: true,
 }
 
-Alpine.data("app", () => ({ count: 0 }))
+Alpine.data("app", () => ({}))
 
 Alpine.start()

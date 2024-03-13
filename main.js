@@ -1,5 +1,3 @@
-import Alpine from "./node_modules/alpinejs/dist/module.esm.js"
-
 tailwind.config = {
   theme: {
     extend: {},
@@ -11,6 +9,10 @@ tailwind.config = {
   important: true,
 }
 
-Alpine.data("app", () => ({ count: 0 }))
-
-Alpine.start()
+document.addEventListener("alpine:init", () => {
+  Alpine.data("app", function () {
+    return {
+      count: 0,
+    }
+  })
+})

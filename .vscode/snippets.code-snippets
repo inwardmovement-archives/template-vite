@@ -3,8 +3,6 @@
     "body": ["<span class=\"icon\">${1:close}</span>"],
   },
   "skeleton": {
-    "body": [
-      "<div class=\"h-6 w-20 rounded bg-[--bs-secondary-bg-subtle]\"></div>$0",
-    ],
+    "body": ["<div class=\"bg-secondary-subtle h-6 w-20 rounded\"></div>"],
   },
 }

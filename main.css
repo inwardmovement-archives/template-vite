@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
   --font-FILL: 0; /* 0 | 1 */
   --font-wght: 300; /* 100-700 */
@@ -21,10 +17,14 @@ body {
   display: none !important;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 button {
   display: inline-flex !important;
   align-items: center !important;
-  gap: 0.125rem; /* gap-0.5 */
+  gap: 0.125rem;
 }
 
 @font-face {

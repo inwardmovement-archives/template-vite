@@ -1,11 +1,4 @@
 {
-  "name": "desktop",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "scripts": {
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",

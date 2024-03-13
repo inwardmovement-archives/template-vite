@@ -11,8 +11,6 @@ tailwind.config = {
 
 document.addEventListener("alpine:init", () => {
   Alpine.data("app", function () {
-    return {
-      count: 0,
-    }
+    return {}
   })
 })

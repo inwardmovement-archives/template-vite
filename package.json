@@ -1,14 +1,16 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vite build",
     "preview": "vite preview",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
     "update": "npx npm-check-updates -ui"
   },
-  "dependencies": {},
+  "dependencies": {
+    "alpinejs": "^3.13.7"
+  },
   "devDependencies": {
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",

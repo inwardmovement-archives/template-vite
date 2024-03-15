@@ -1,3 +1,11 @@
+import Alpine from "alpinejs"
+
+Alpine.data("app", function () {
+  return { count: 530 }
+})
+
+Alpine.start()
+
 tailwind.config = {
   theme: {
     extend: {},
@@ -8,9 +16,3 @@ tailwind.config = {
   darkMode: "class",
   important: true,
 }
-
-document.addEventListener("alpine:init", () => {
-  Alpine.data("app", function () {
-    return { count: 0 }
-  })
-})

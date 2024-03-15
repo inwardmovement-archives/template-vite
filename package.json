@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build",
+    "build": "vite build --emptyOutDir",
     "preview": "vite preview --open",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",

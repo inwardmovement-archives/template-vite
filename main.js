@@ -3,7 +3,7 @@ import Alpine from "alpinejs"
 import * as bootstrap from "bootstrap"
 
 Alpine.data("app", function () {
-  return { count: 0 }
+  return {}
 })
 
 Alpine.start()

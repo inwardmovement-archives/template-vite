@@ -21,6 +21,24 @@
     <title>Template</title>
   </head>
   <body x-data="app">
-    <div class="container-fluid mx-auto mt-12 max-w-fit"></div>
+    <div class="container-fluid mx-auto mt-12 max-w-fit">
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <button @click="count++" type="button" class="btn btn-danger">
+        Danger <span x-text="count"></span>
+      </button>
+    </div>
   </body>
 </html>

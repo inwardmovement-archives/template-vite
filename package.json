@@ -9,7 +9,8 @@
     "update": "npx npm-check-updates -ui"
   },
   "dependencies": {
-    "alpinejs": "^3.13.7"
+    "alpinejs": "^3.13.7",
+    "bootstrap": "^5.3.3"
   },
   "devDependencies": {
     "prettier": "^3.2.5",

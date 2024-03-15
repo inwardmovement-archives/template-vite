@@ -1,6 +1,6 @@
 :root {
   --font-FILL: 0; /* 0 | 1 */
-  --font-wght: 300; /* 100-700 */
+  --font-wght: 250; /* 100-700 */
   --font-GRAD: 0; /* -25 for light on dark */
   --font-opsz: 24; /* 20 | 24 | 40 | 48 */
 }

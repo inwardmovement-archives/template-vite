@@ -1,7 +1,9 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import Alpine from "alpinejs"
+import * as bootstrap from "bootstrap"
 
 Alpine.data("app", function () {
-  return { count: 530 }
+  return { count: 0 }
 })
 
 Alpine.start()

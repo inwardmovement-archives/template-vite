@@ -1,6 +1,5 @@
 import { defineConfig } from "vite"
-import { resolve } from "path"
-import path from "path"
+import path, { resolve } from "path"
 import { globSync } from "glob"
 
 export default defineConfig({

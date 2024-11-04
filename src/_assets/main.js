@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css"
+import "/_assets/main.css"
 import Alpine from "alpinejs"
 import * as bootstrap from "bootstrap"
 
